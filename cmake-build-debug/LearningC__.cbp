@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LearningC__"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Linear Algebra (Eigen Library)\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\eigen3\;CMake Files\..\..\..\..\usr\local\share\eigen3\cmake\;CMake Files\..\..\..\..\usr\local\share\sophus\;CMake Files\..\..\..\..\usr\local\share\sophus\cmake\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\Pangolin\;CMake Files\Trajectory Viewer (Pangolin Viewer)\;CMake Files\Lie Group and Lie Algebra (Sophus Library)\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="coordinateTransform">
+				<Option output="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug/Linear Algebra (Eigen Library)/coordinateTransform" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug/Linear Algebra (Eigen Library)"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Linear\ Algebra\ (Eigen\ Library)/Makefile&quot;  VERBOSE=1 coordinateTransform"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Linear\ Algebra\ (Eigen\ Library)/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Linear\ Algebra\ (Eigen\ Library)/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Linear\ Algebra\ (Eigen\ Library)/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="coordinateTransform/fast">
+				<Option output="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug/Linear Algebra (Eigen Library)/coordinateTransform" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug/Linear Algebra (Eigen Library)"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Linear\ Algebra\ (Eigen\ Library)/Makefile&quot;  VERBOSE=1 coordinateTransform/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Linear\ Algebra\ (Eigen\ Library)/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Linear\ Algebra\ (Eigen\ Library)/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Linear\ Algebra\ (Eigen\ Library)/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EigenDense">
+				<Option output="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug/Linear Algebra (Eigen Library)/EigenDense" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug/Linear Algebra (Eigen Library)"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Linear\ Algebra\ (Eigen\ Library)/Makefile&quot;  VERBOSE=1 EigenDense"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Linear\ Algebra\ (Eigen\ Library)/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Linear\ Algebra\ (Eigen\ Library)/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Linear\ Algebra\ (Eigen\ Library)/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EigenDense/fast">
+				<Option output="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug/Linear Algebra (Eigen Library)/EigenDense" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug/Linear Algebra (Eigen Library)"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Linear\ Algebra\ (Eigen\ Library)/Makefile&quot;  VERBOSE=1 EigenDense/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Linear\ Algebra\ (Eigen\ Library)/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Linear\ Algebra\ (Eigen\ Library)/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Linear\ Algebra\ (Eigen\ Library)/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EigenGeometry">
+				<Option output="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug/Linear Algebra (Eigen Library)/EigenGeometry" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug/Linear Algebra (Eigen Library)"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Linear\ Algebra\ (Eigen\ Library)/Makefile&quot;  VERBOSE=1 EigenGeometry"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Linear\ Algebra\ (Eigen\ Library)/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Linear\ Algebra\ (Eigen\ Library)/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Linear\ Algebra\ (Eigen\ Library)/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EigenGeometry/fast">
+				<Option output="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug/Linear Algebra (Eigen Library)/EigenGeometry" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug/Linear Algebra (Eigen Library)"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Linear\ Algebra\ (Eigen\ Library)/Makefile&quot;  VERBOSE=1 EigenGeometry/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Linear\ Algebra\ (Eigen\ Library)/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Linear\ Algebra\ (Eigen\ Library)/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Linear\ Algebra\ (Eigen\ Library)/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="poseViewer">
+				<Option output="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug/Trajectory Viewer (Pangolin Viewer)/poseViewer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug/Trajectory Viewer (Pangolin Viewer)"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/lib/cmake/Pangolin/../../../include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Trajectory\ Viewer\ (Pangolin\ Viewer)/Makefile&quot;  VERBOSE=1 poseViewer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Trajectory\ Viewer\ (Pangolin\ Viewer)/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Trajectory\ Viewer\ (Pangolin\ Viewer)/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Trajectory\ Viewer\ (Pangolin\ Viewer)/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="poseViewer/fast">
+				<Option output="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug/Trajectory Viewer (Pangolin Viewer)/poseViewer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug/Trajectory Viewer (Pangolin Viewer)"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/lib/cmake/Pangolin/../../../include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Trajectory\ Viewer\ (Pangolin\ Viewer)/Makefile&quot;  VERBOSE=1 poseViewer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Trajectory\ Viewer\ (Pangolin\ Viewer)/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Trajectory\ Viewer\ (Pangolin\ Viewer)/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Trajectory\ Viewer\ (Pangolin\ Viewer)/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="useSophus">
+				<Option output="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug/Lie Group and Lie Algebra (Sophus Library)/useSophus" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug/Lie Group and Lie Algebra (Sophus Library)"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/Sophus"/>
+					<Add directory="/usr/local/lib/cmake/Pangolin/../../../include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Lie\ Group\ and\ Lie\ Algebra\ (Sophus\ Library)/Makefile&quot;  VERBOSE=1 useSophus"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Lie\ Group\ and\ Lie\ Algebra\ (Sophus\ Library)/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Lie\ Group\ and\ Lie\ Algebra\ (Sophus\ Library)/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Lie\ Group\ and\ Lie\ Algebra\ (Sophus\ Library)/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="useSophus/fast">
+				<Option output="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug/Lie Group and Lie Algebra (Sophus Library)/useSophus" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug/Lie Group and Lie Algebra (Sophus Library)"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/Sophus"/>
+					<Add directory="/usr/local/lib/cmake/Pangolin/../../../include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Lie\ Group\ and\ Lie\ Algebra\ (Sophus\ Library)/Makefile&quot;  VERBOSE=1 useSophus/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Lie\ Group\ and\ Lie\ Algebra\ (Sophus\ Library)/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Lie\ Group\ and\ Lie\ Algebra\ (Sophus\ Library)/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Lie\ Group\ and\ Lie\ Algebra\ (Sophus\ Library)/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="trajectoryError">
+				<Option output="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug/Lie Group and Lie Algebra (Sophus Library)/trajectoryError" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug/Lie Group and Lie Algebra (Sophus Library)"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/Sophus"/>
+					<Add directory="/usr/local/lib/cmake/Pangolin/../../../include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Lie\ Group\ and\ Lie\ Algebra\ (Sophus\ Library)/Makefile&quot;  VERBOSE=1 trajectoryError"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Lie\ Group\ and\ Lie\ Algebra\ (Sophus\ Library)/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Lie\ Group\ and\ Lie\ Algebra\ (Sophus\ Library)/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Lie\ Group\ and\ Lie\ Algebra\ (Sophus\ Library)/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="trajectoryError/fast">
+				<Option output="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug/Lie Group and Lie Algebra (Sophus Library)/trajectoryError" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/santosh/Projects/Math for SLAM C++/cmake-build-debug/Lie Group and Lie Algebra (Sophus Library)"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/Sophus"/>
+					<Add directory="/usr/local/lib/cmake/Pangolin/../../../include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Lie\ Group\ and\ Lie\ Algebra\ (Sophus\ Library)/Makefile&quot;  VERBOSE=1 trajectoryError/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Lie\ Group\ and\ Lie\ Algebra\ (Sophus\ Library)/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Lie\ Group\ and\ Lie\ Algebra\ (Sophus\ Library)/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/santosh/Projects/Math\ for\ SLAM\ C++/cmake-build-debug/Lie\ Group\ and\ Lie\ Algebra\ (Sophus\ Library)/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/santosh/Projects/Math for SLAM C++/Lie Group and Lie Algebra (Sophus Library)/trajectoryError.cpp">
+			<Option target="trajectoryError"/>
+		</Unit>
+		<Unit filename="/home/santosh/Projects/Math for SLAM C++/Lie Group and Lie Algebra (Sophus Library)/useSophus.cpp">
+			<Option target="useSophus"/>
+		</Unit>
+		<Unit filename="/home/santosh/Projects/Math for SLAM C++/Linear Algebra (Eigen Library)/EigenDense.cpp">
+			<Option target="EigenDense"/>
+		</Unit>
+		<Unit filename="/home/santosh/Projects/Math for SLAM C++/Linear Algebra (Eigen Library)/coordinateTransform.cpp">
+			<Option target="coordinateTransform"/>
+		</Unit>
+		<Unit filename="/home/santosh/Projects/Math for SLAM C++/Linear Algebra (Eigen Library)/eigenGeometry.cpp">
+			<Option target="EigenGeometry"/>
+		</Unit>
+		<Unit filename="/home/santosh/Projects/Math for SLAM C++/Trajectory Viewer (Pangolin Viewer)/poseViewer.cpp">
+			<Option target="poseViewer"/>
+		</Unit>
+		<Unit filename="/home/santosh/Projects/Math for SLAM C++/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/santosh/Projects/Math for SLAM C++/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/santosh/Projects/Math for SLAM C++/Linear Algebra (Eigen Library)/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Linear Algebra (Eigen Library)\"/>
+		</Unit>
+		<Unit filename="/home/santosh/Projects/Math for SLAM C++/../../../../usr/local/share/eigen3/cmake/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/santosh/Projects/Math for SLAM C++/../../../../usr/local/share/eigen3/cmake/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/santosh/Projects/Math for SLAM C++/../../../../usr/local/share/eigen3/cmake/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/santosh/Projects/Math for SLAM C++/../../../../usr/local/share/sophus/cmake/SophusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\sophus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/santosh/Projects/Math for SLAM C++/../../../../usr/local/share/sophus/cmake/SophusConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\sophus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/santosh/Projects/Math for SLAM C++/../../../../usr/local/share/sophus/cmake/SophusTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\sophus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/santosh/Projects/Math for SLAM C++/../../../../usr/local/lib/cmake/Pangolin/PangolinConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/home/santosh/Projects/Math for SLAM C++/../../../../usr/local/lib/cmake/Pangolin/PangolinConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/home/santosh/Projects/Math for SLAM C++/../../../../usr/local/lib/cmake/Pangolin/PangolinTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/home/santosh/Projects/Math for SLAM C++/../../../../usr/local/lib/cmake/Pangolin/PangolinTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/home/santosh/Projects/Math for SLAM C++/Trajectory Viewer (Pangolin Viewer)/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Trajectory Viewer (Pangolin Viewer)\"/>
+		</Unit>
+		<Unit filename="/home/santosh/Projects/Math for SLAM C++/Lie Group and Lie Algebra (Sophus Library)/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Lie Group and Lie Algebra (Sophus Library)\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
