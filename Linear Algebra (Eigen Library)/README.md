@@ -69,6 +69,7 @@ Header File
 `````#include <Eigen/Core> `````: Consist of core , must include for using other module
 
 ```#include <Eigen/Dense> ```: Algebraic operations of dense matrices (inverse, eigenvalues, etc.)
+
 ```#include <Eigen/Geometry> ```: Perform Geometry algebra related operation.
 
 
